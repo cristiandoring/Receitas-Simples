@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(236, 225, 204);
+}
+.conteudo{
+    background-color: white;
+}
+img{
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+}
+
+table{
+
+    width: 400px;
+    height: auto;
+    
+}
+
+td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.234);
+    text-align: center;
+    padding: 10px;
+    
+    
+}
