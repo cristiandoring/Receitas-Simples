@@ -1,27 +1,111 @@
+*{
+    font-family: 'Arimo', sans-serif;
+
+}
 body{
     background-color: rgb(236, 225, 204);
 }
 .conteudo{
     background-color: white;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
 }
 img{
-    width: 550px;
+    width: 600px;
     height: auto;
     border-radius: 10px;
-    margin: auto;
+
 }
 
-table{
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: lightcoral;
+}
 
-    width: 400px;
-    height: auto;
+p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+h3{
+    font-size: 1.5em;
+    color: lightcoral;
+    text-align: center;
+    margin: -2px;
+    padding: 5px;
+}
+.tempo-preparo{
+    background-color: rgba(233, 150, 122, 0.225);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+h2{
+    font-size: 1.6em;
+    text-indent: 30px;
+    color:lightcoral;
+}
+
+ul{
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+ol{
+    line-height: 1.5em;
+    font-size: 1.2em;
+    text-align: justify;
     
 }
+
+li{
+    padding: 5px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color:  lightcoral;
+    color:black;
+    
+}
+
+
 
 td{
     border-bottom: 1px solid rgba(0, 0, 0, 0.234);
     text-align: center;
     padding: 10px;
-    
-    
+    font-size: 1.2em;
+       
 }
+
+table{
+    margin: auto;
+    width: 400px;
+    height: auto;
+}
+
