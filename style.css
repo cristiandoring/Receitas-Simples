@@ -1,15 +1,47 @@
-h1{
-    margin: auto;
-    text-align: center;
+:root{
+    --cor0:rgba(233, 150, 122, 0.225);
+    --cor1:lightcoral;
 }
-img{
-    width: 400px;
-    height: auto;
-    border-radius: 10px;
+
+*{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to top, var(--cor0), var(--cor1));
     
 }
 
+
+img{
+    width: 628px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+img:hover{
+    width: 700px;
+    margin: -25px;
+    height: auto;
+}
+h1{
+    text-align: center;
+    padding: 50px;
+    text-shadow: 2px 2px 3px white;
+}
+
+header{
+    margin: auto;
+    color: black;
+    font-size: 2em;
+    width: 1466px;
+    height: auto;
+
+    
+}
 main{
-    display: flex;
-    align-items: center;
+    display: flex;  
+    align-items: justify;
     justify-content:space-around;
+}
